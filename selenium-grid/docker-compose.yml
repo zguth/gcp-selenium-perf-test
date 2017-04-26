@@ -1,0 +1,164 @@
+hub:
+  image: selenium/hub:3.2.0
+  ports:
+    - "64444:4444"
+node1:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node2:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node3:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node4:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node5:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node6:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node7:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node8:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node9:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node10:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node11:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node12:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node13:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node14:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node15:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node16:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node17:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node18:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node19:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node20:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node21:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node22:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node23:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node24:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node25:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node26:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node27:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node28:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node29:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node30:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node31:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node32:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node33:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node34:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node35:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node36:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node37:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node38:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node39:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
+node40:
+  image: selenium/node-chrome:3.2.0
+  links:
+    - hub
